@@ -1,0 +1,54 @@
+#MainContainer{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#MainContainer label{
+
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#MainContainer input{
+
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-bottom: solid 1px black;
+    margin-top: 2%;
+
+}
+
+#MainContainer input:focus{
+    outline: none;
+    border-bottom: solid 1px black;
+
+}
+#itemList{
+
+    width: 90%;
+}
+#itemList li{
+
+    list-style: none;
+    text-align: center;
+    color: black;
+    height: 40px;
+    border: solid 1px black;
+
+    width: 20%;
+    margin: 1em auto 0;
+    border-radius: 5px;
+
+}
+
+#itemList li:hover{
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
