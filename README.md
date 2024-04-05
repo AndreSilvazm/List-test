@@ -2,6 +2,8 @@
 
 This repository contain a list test using ejs
 
+site URL: https://list-test.onrender.com/
+
 ## Getting started
 
 **One-time steps to set up environment:**
